@@ -86,3 +86,138 @@ line-height: 140%; /* 33.6px */
     top: 17px;
     left: 873px;
 }
+.textlogo{
+    position: absolute;
+    color: var(--main-white, #FFF);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+top: 16px;
+left: 915px;
+}
+.leftpartheader{
+    position: relative;
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+list-style: none;
+text-align: center;
+display: flex;
+gap: 40px;
+left: 60px;
+}
+.tok{
+    color: #B2A6FD;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.brt{
+    position: absolute;
+    top: 19px;
+    right: 458px;
+}
+.rightpartheader{
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    gap: 40px;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+right:188px ;
+list-style: none;
+left: 1100px;
+top: 5px;
+}
+.uio{
+    background: linear-gradient(144deg, #54D6FF 40%, #C275FF 10%, #F36AFF 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.boxik{
+    
+    width: 368px;
+height: 253px;
+flex-shrink: 0;
+margin-left: 378px;
+margin-top: 454px;
+border-radius: 10px;
+border: 1px solid #ee78b9;
+}
+.textl{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.boxsecond{
+    width: 368px;
+    height: 253px;
+    flex-shrink: 0;
+    margin-left: 778px;
+    margin-top: -256px;
+    border-radius: 10px;
+    border: 1px solid #a9f9ff;
+    display: flex;
+}
+.iop{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.yui{
+    width: 368px;
+    height: 253px;
+    flex-shrink: 0;
+    margin-left: 1174px;
+    margin-top: -256px;
+    border-radius: 10px;
+    border: 1px solid #a9c4ff;
+    display: flex;
+}
+.ert{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.textyum{
+    color: #C1ABFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 56px */
+margin-top: 187px;
+margin-left: -880px;
+}
+.texttr{
+    color: #C1ABFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 56px */
+margin-top: -45px ;
+margin-right: 50px;
+}
