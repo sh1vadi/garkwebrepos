@@ -36,32 +36,19 @@ gap: 40px;
     align-items: center;
     justify-content: center;
 }
-.rightpartinheader{
-    position: absolute;
-    top: 20px;
-    right: 188px;
-}
-.leftpartinheader{
-    position: absolute;
-    top: 20px;
-    left: 179px;
-}
-.logoinheader{
-    position: absolute;
-    top: 18px;
-    left: 873px;
-}
-.linehearheader{
-    position: relative;
-    top: 60px;
-}
+
+
+
+
+
 .crug{
     position: absolute;
     left: 936px;
     top: 283px;
 }
 .textnearcrug{
-    position: relative;
+   margin-top: 385px;
+   
     right: 377px;
     top: 385px;
     text-align: center;
@@ -104,12 +91,10 @@ line-height: 140%; /* 33.6px */
     width: 300px;
     height: 60px;
     flex-shrink: 0;
-
     border-radius: 10px;
     background: linear-gradient(144deg, #54D6FF 38%, #C275FF 54.69%, #F36AFF 100%);
 }
-.logo{
-}
+
 .textlogo{
 
     color: var(--main-white, #FFF);
