@@ -1,13 +1,40 @@
 .mainpage{
-    width: 1920px;
+    width: 100%;
     height:4544px ;
     background-color:#0F1113;
 }
 .header{
     position: relative;
-    width: 1920px;
+
+    width: 82%;
     height: 60px;
-    background-color: #0F1113
+    background-color: #0F1113;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9%;
+    padding-right: 9%;
+    align-items: center;
+}
+.leftcont{
+    display: flex;
+    color: #FFF;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+gap: 40px;
+}
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .rightpartinheader{
     position: absolute;
@@ -82,20 +109,16 @@ line-height: 140%; /* 33.6px */
     background: linear-gradient(144deg, #54D6FF 38%, #C275FF 54.69%, #F36AFF 100%);
 }
 .logo{
-    position: absolute;
-    top: 17px;
-    left: 873px;
 }
 .textlogo{
-    position: absolute;
+
     color: var(--main-white, #FFF);
 font-family: Gilroy;
 font-size: 24px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-top: 16px;
-left: 915px;
+
 }
 .leftpartheader{
     position: relative;
