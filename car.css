@@ -1,9 +1,13 @@
-
+@font-face {
+    font-family: 'Gilroy_normal';
+    src: url(/fonts/Gilroy/Gilroy-Medium.ttf);
+}
 /* Указываем box sizing */
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+    font-family: 'Gilroy_normal';
 }
 
 /* Убираем внутренние отступы */
