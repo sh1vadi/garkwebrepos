@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    width: 2560px;
+    height: 1000px;
+    background: #0F1113;
+    
+}
+.span1{
+    color: #C1ABFF;
+font-family: Gilroy;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 56px */
+position: relative;
+position: absolute;
+top: 150px;
+left: 800px;
+
+
+}
+.white-text{
+    color: var(--main-white, #FFF);
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+position: absolute;
+top: 200px;
+left: 800px;
+
+}
+.button{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 240px;
+    left: 800px;
+    background-color: #C1ABFF;
+    border-radius: 6px;
+    border: 0px  #C1ABFF;
+}
+.block-white-text{
+    width: 20px;
+}
+
+
