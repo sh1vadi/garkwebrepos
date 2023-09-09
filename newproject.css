@@ -42,15 +42,11 @@ gap: 40px;
 
 
 .crug{
-    position: absolute;
-    left: 936px;
-    top: 283px;
+text-align: center;
+margin-top: 110px;
 }
 .textnearcrug{
-   margin-top: 385px;
-   
-    right: 377px;
-    top: 385px;
+
     text-align: center;
     font-family: Gilroy;
     font-size: 64px;
@@ -69,7 +65,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: 140%;
-
+margin-top: 30px;
 }
 .ft{
     color: #C1ABFF;
@@ -81,9 +77,10 @@ line-height: 140%; /* 33.6px */
 }
 .boxfortext{
     position: relative;
-    width: 440px;
-    left: 408px;
-    top: 420px;
+    width: 740px;
+    margin: auto;
+    text-align: center;
+
 }
 .buttonandertext{
     margin-top: 460px;
@@ -199,6 +196,14 @@ line-height: 140%; /* 22.4px */
     border: 1px solid #a9c4ff;
     display: flex;
 }
+.newbutton{
+    border-radius: 10px;
+border: 3px solid linear-gradient(104deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+box-shadow: 0px 2px 12px 0px rgba(148, 180, 252, 0.37);
+width: 300px;
+height: 60px;
+background: linear-gradient(104deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+}
 .ert{
     color: #FFF;
 font-family: Gilroy;
@@ -228,4 +233,33 @@ font-weight: 700;
 line-height: 140%; /* 56px */
 margin-top: -45px ;
 margin-right: 50px;
+}
+.promo{
+    margin-top: 40px;
+    background-color: #a0a0a0;
+    text-align: center;
+}
+@media screen and (max-width: 1920px){
+    .promo{
+        display: flex;
+        justify-content: center;
+        gap: 90px;
+
+    }
+    .promo_text_secPage{
+        margin-top: 280px;
+
+    }
+    .crug{
+        margin-top: 180px;
+    }
+
+}
+@media screen and (max-width: 1440px) {
+    .text{
+        width: 450px;
+    }
+    .promo_text_secPage{
+        width: 450px;
+    }
 }
