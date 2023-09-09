@@ -254,6 +254,7 @@ select {
     font-weight: 700;
     line-height: normal;
 }
+
 .box_partnerov1{
     width: 173px;
     height: 92px;
@@ -261,144 +262,19 @@ select {
     border-radius: 10px;
     border: 1px solid #151D25;
     background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    top: 52px;
-    left: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.box_partnerov2{
-    width: 173px;
-    height: 92px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #151D25;
-    background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    top: 52px;
-    left: 993px;
-}
-.box_partnerov3{
-    width: 173px;
-    height: 92px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #151D25;
-    background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    top: 52px;
-    left: 1186px;
-}
-.box_partnerov4{
-    width: 173px;
-    height: 92px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #151D25;
-    background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    top: 52px;
-    left: 1379px;
-}
-.box_partnerov5{
-    width: 173px;
-    height: 92px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #151D25;
-    background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    top: 52px;
-    left: 1572px;
-}
-.box_partnerov6{
-    width: 173px;
-    height: 92px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #151D25;
-    background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    top: 164px;
-    left: 897px;
-}
-.box_partnerov7{
-    width: 173px;
-    height: 92px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #151D25;
-    background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    top: 164px;
-    left: 1090px;
+.partnerbox{
+    display: flex;
     margin: auto;
+    width: 945px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-.box_partnerov8{
-    width: 173px;
-    height: 92px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #151D25;
-    background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    top: 164px;
-    left: 1283px;
-}
-.box_partnerov9{
-    width: 173px;
-    height: 92px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    border: 1px solid #151D25;
-    background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: absolute;
-    top: 164px;
-    left: 1476px;
-}
-#part1{
-    position: absolute;
-    top: 31px;
-    left: 20px;
-}
-#part2{
-    position: absolute;
-    top: 29px;
-    left: 20px;
-}
-#part3{
-    position: absolute;
-    top: 28px;
-    left: 18px;
-}
-#part4{
-    position: absolute;
-    top: 35px;
-    left: 20px;
-}
-#part5{
-    position: absolute;
-    top: 39px;
-    left: 48px;
-}
-#part6{
-    position: absolute;
-    top: 37px;
-    left: 20px;
-}
-#part7{
-    position: absolute;
-    top: 34px;
-    left: 20px;
-}
-#part8{
-    position: absolute;
-    top: 33px;
-    left: 20px;
-}
-#part9{
-    position: absolute;
-    top: 33px;
-    left: 20px;
-}
+
 /* quests + contact */
 
 .main{
