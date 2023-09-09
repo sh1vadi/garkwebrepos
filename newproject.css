@@ -72,12 +72,12 @@ line-height: 140%;
 
 }
 .ft{
-    color: #C1ABFF;
+   
 font-family: Gilroy;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
-line-height: 140%; /* 33.6px */
+line-height: 140%;
 }
 .boxfortext{
     position: relative;
