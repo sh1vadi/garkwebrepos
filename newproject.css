@@ -83,13 +83,22 @@ line-height: 140%;
 
 }
 .buttonandertext{
-    margin-top: 460px;
-    margin-left: 408px;
+    
     width: 300px;
     height: 60px;
     flex-shrink: 0;
     border-radius: 10px;
     background: linear-gradient(144deg, #54D6FF 38%, #C275FF 54.69%, #F36AFF 100%);
+}
+.blackpart{
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    background-color: #0F1113;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    
 }
 
 .textlogo{
