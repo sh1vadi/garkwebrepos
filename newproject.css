@@ -41,6 +41,7 @@ gap: 40px;
 
 
 
+
 .crug{
 text-align: center;
 margin-top: 110px;
@@ -154,21 +155,36 @@ list-style: none;
 left: 1100px;
 top: 5px;
 }
+.boxtr{
+  
+ 
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 30px;
+    margin-top: 200px;
+  
+
+
+}
 .uio{
-    background: linear-gradient(144deg, #54D6FF 40%, #C275FF 10%, #F36AFF 60%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 22.4px */
+  
 }
 
 .boxik{
     
     width: 368px;
-height: 253px;
-flex-shrink: 0;
-margin-left: 378px;
-margin-top: 454px;
-border-radius: 10px;
+    height: 253px;
+    flex-shrink: 0;
 border: 1px solid #ee78b9;
 }
 .textl{
@@ -183,11 +199,8 @@ line-height: 140%; /* 22.4px */
     width: 368px;
     height: 253px;
     flex-shrink: 0;
-    margin-left: 778px;
-    margin-top: -256px;
-    border-radius: 10px;
     border: 1px solid #a9f9ff;
-    display: flex;
+   
 }
 .iop{
     color: #FFF;
@@ -199,13 +212,10 @@ line-height: 140%; /* 22.4px */
 }
 .yui{
     width: 368px;
-    height: 253px;
-    flex-shrink: 0;
-    margin-left: 1174px;
-    margin-top: -256px;
-    border-radius: 10px;
+height: 253px;
+flex-shrink: 0;
     border: 1px solid #a9c4ff;
-    display: flex;
+   
 }
 .newbutton{
     border-radius: 10px;
