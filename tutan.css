@@ -5,8 +5,9 @@ body{
 
 .back{
     width: 2560px;
-    height: 1500px;
+    height: 1800px;
     background: #0F1113;
+
     
 }
 .button{
@@ -63,7 +64,7 @@ body{
     position: relative;
     position: absolute;
     top: 450px;
-    left: 440px;
+    left: 420px;
 }
 .block-white-text2{
     width: 370px; 
@@ -75,7 +76,7 @@ body{
     line-height: 140%; /* 22.4px */
     position: absolute;
     top: 545px;
-    left: 440px;
+    left: 420px;
 }
 .gif2{
     width: 300px;
@@ -89,7 +90,7 @@ body{
     height: 40px;
     position: absolute;
     top: 605px;
-    left: 440px;
+    left: 420px;
     background-color: #C1ABFF;
     border-radius: 6px;
     border: 0px  #C1ABFF;
@@ -134,5 +135,89 @@ body{
     height: 300px;
     position: absolute;
     top: 657px;
+    left: 400px;
+}
+.block-span4{
+    width: 300px;
+    color: #C1ABFF;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 56px */
+    position: relative;
+    position: absolute;
+    top: 1000px;
+    left: 420px;   
+}
+.block-white-text4{
+    width: 370px; 
+    color: var(--main-white, #FFF);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 22.4px */
+    position: absolute;
+    top: 1090px;
+    left: 420px;
+}
+.button4{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 1180px;
+    left: 420px;
+    background-color: #C1ABFF;
+    border-radius: 6px;
+    border: 0px  #C1ABFF;
+}
+.gif4{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 970px;
+    left: 800px;
+}
+.block-span5{
+    width: 300px;
+    color: #C1ABFF;
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 56px */
+    position: relative;
+    position: absolute;
+    top: 1300px;
+    left: 800px; 
+}
+.block-white-text5{
+    width: 420px; 
+    color: var(--main-white, #FFF);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 22.4px */
+    position: absolute;
+    top: 1390px;
+    left: 800px;
+}
+.button5{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 1440px;
+    left: 800px;
+    background-color: #C1ABFF;
+    border-radius: 6px;
+    border: 0px  #C1ABFF;   
+}
+.gif5{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 1257px;
     left: 400px;
 }
