@@ -186,7 +186,7 @@ font-weight: 500;
     justify-content: center;
     align-items: center;
 }
-.partnerbox{
+.partner_all_boxes{
     display: flex;
     margin: auto;
     width: 945px;
@@ -196,14 +196,14 @@ font-weight: 500;
     margin-top: 52px;
 }
 
-/* quests + contact */
-.main{
+/* quests */
+.main_quests{
     width: 100%;
     height: 1896px;
     background-color:#0F1113;
     margin-top: 181px;
 }
-.text{
+.text_q{
     color: #FFF;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -223,7 +223,7 @@ font-weight: 500;
     line-height: normal;
     margin-top: 177px;
 }
-.list_box1{
+.list_q_box1{
     width: 1207px;
     height: 82px;
     background-color: #0F1113;
@@ -244,17 +244,18 @@ font-weight: 500;
     top: 29px;
     right: 20px;
 }
-.textt1{
+.sec_text_q{
     position: absolute;
     top: 31px;
     left: 20px;
 }
+/*contact*/
 .main_contact{
     width: 1207px;
     height: 615px;
     margin: auto;
 }
-.name{
+.name_c{
     color: #FFF;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -265,7 +266,7 @@ font-weight: 500;
     margin-top: 46px;
     margin-right: 1444px;
 }
-.box1_contact{
+.box1_c{
     width: 1207px;
     height: 50px;
     border-radius: 5px;
@@ -273,7 +274,7 @@ font-weight: 500;
     background: linear-gradient(90deg, #151D25 0%, #131618 100%);
     
 }
-.email{
+.email_c{
     color: #FFF;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -285,7 +286,7 @@ font-weight: 500;
     margin-right: 1444px;
     margin-bottom: 15px;
 }
-.message{
+.message_c{
     color: #FFF;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -297,14 +298,14 @@ font-weight: 500;
     margin-right: 1444px;
     margin-bottom: 15px;
 }
-.box3_contact{
+.box3_c{
     width: 1207px;
     height: 179px;
     border-radius: 5px;
     border: 1px solid #151D25;
     background: linear-gradient(90deg, #151D25 0%, #131618 100%);
 }
-.send{
+.button_send_c{
     width: 250px;
     height: 60px;
     border-radius: 10px;
@@ -313,7 +314,7 @@ font-weight: 500;
     margin-top: 30px;
     position: relative;
 }
-.sendd{
+.send_c{
     color: #0F1113;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -333,23 +334,24 @@ font-weight: 500;
     margin-top: 69px;
     border-radius: 5px;
 }
-.niz{
+/*bottom*/
+.bottom_main{
     width: 100%;
     height: 338.76px;
     background-color: #101417;
     position: relative;
 }
-.imgshka{
+.img_bottom{
     position: absolute;
     left: 678px;
     top: 62px;
 }
-.imgshka2{
+.img_bottom2{
     position: absolute;
     left: 721px;
     top: 62px;
 }
-.textniz{
+.text_bottom_big{
     width: 388px;
     height: 66.345px;
     flex-shrink: 0;
@@ -363,14 +365,14 @@ font-weight: 500;
     left: 678px;
     top: 143px;
 }
-.displayimg{
+.displayimg_bottom{
     display: flex;
     gap: 30px;
     position: absolute;
     left: 678px;
     top: 258px;
 }
-.tekst1{
+.text_bottom1{
     color: var(--main-white, #FFF);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -381,18 +383,7 @@ font-weight: 500;
     left: 1331px;
     top: 79px;
 }
-.tekst1{
-    color: var(--main-white, #FFF);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    position: absolute;
-    left: 1331px;
-    top: 79px;
-}
-.tekst2{
+.text_bottom2{
     color: var(--main-white, #FFF);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -403,7 +394,7 @@ font-weight: 500;
     left: 1331px;
     top: 123px;
 }
-.tekst3{
+.text_bottom3{
     color: var(--main-white, #FFF);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -414,7 +405,7 @@ font-weight: 500;
     left: 1331px;
     top: 167px;
 }
-.tekst4{
+.text_bottom4{
     color: var(--main-white, #FFF);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -425,7 +416,7 @@ font-weight: 500;
     left: 1331px;
     top: 211px;
 }
-.tekst5{
+.text_bottom5{
     color: var(--main-white, #FFF);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -436,7 +427,7 @@ font-weight: 500;
     left: 1537px;
     top: 79px;
 }
-.tekst6{
+.text_bottom6{
     color: var(--main-white, #FFF);
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -447,7 +438,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     left: 1537px;
     top: 123px;
 }
-.tekst7{
+.text_bottom7{
     color: var(--main-white, #FFF);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
@@ -458,7 +449,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     left: 1537px;
     top: 167px;
 }
-#tekts7{
+#text7_bottom{
     background: var(--gradient-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%));
     background-clip: text;
     -webkit-background-clip: text;
