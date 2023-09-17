@@ -59,6 +59,10 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.specialbloc{
+    width: 740px;
+
+}
 .text{
     color: var(--main-white, #FFF);
 font-family: Gilroy;
@@ -77,10 +81,11 @@ font-weight: 500;
 line-height: 140%;
 }
 .boxfortext{
-    position: relative;
-    width: 740px;
+ 
+   
     margin: auto;
     text-align: center;
+    
 
 }
 .buttonandertext{
@@ -92,6 +97,7 @@ line-height: 140%;
     flex-shrink: 0;
     border-radius: 10px;
     background: linear-gradient(144deg, #54D6FF 38%, #C275FF 54.69%, #F36AFF 100%);
+    
 }
 .blackpart{
     width: 290px;
@@ -110,6 +116,7 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 font-size: 20px;
 font-weight: 600;
+
 }
 .textlogo{
 
@@ -264,7 +271,7 @@ margin-right: 50px;
 }
 .promo{
     margin-top: 40px;
-    background-color: #a0a0a0;
+    
     text-align: center;
 }
 @media screen and (max-width: 1920px){
