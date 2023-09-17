@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .mainpage{
     width: 100%;
     height:4544px ;
@@ -84,7 +87,9 @@ line-height: 140%;
 
 }
 .buttonandertext{
+    margin: auto;
     display: flex;
+    margin-top: 80px;
     justify-content: center;
     align-items: center;
     width: 300px;
@@ -281,7 +286,12 @@ margin-right: 50px;
     .crug{
         margin-top: 180px;
     }
-
+    .botton_button_kostil{
+        display: none !important;
+    }
+    .top_button_kostil{
+        display: block;
+    }
 }
 @media screen and (max-width: 1440px) {
     .text{
@@ -289,5 +299,11 @@ margin-right: 50px;
     }
     .promo_text_secPage{
         width: 450px;
+    }
+
+}
+@media screen and (min-width: 1920px){
+    .top_button_kostil{
+        display: none !important;
     }
 }
