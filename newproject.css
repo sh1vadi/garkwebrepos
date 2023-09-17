@@ -103,7 +103,14 @@ line-height: 140%;
     justify-content: center;
     align-items: center;
 }
-
+.litepaper{
+    background: var(--Gradient-1, linear-gradient(104deg, #FC84FF 13.23%, #54D1FA 91.95%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 20px;
+font-weight: 600;
+}
 .textlogo{
 
     color: var(--main-white, #FFF);
