@@ -1,26 +1,41 @@
 body{
     margin: 0;
     padding: 0;
-}
-
-.back{
-    width: 2560px;
-    height: 1800px;
     background: #0F1113;
 
-    
+}
+h2{
+    margin: 0;
+    margin-block: 0;
+}
+
+.two_blocks_inside{
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 .button{
     width: 150px;
     height: 40px;
-    position: absolute;
-    top: 300px;
-    left: 800px;
     background-color: #C1ABFF;
     border-radius: 6px;
     border: 0px  #C1ABFF;
 }
-.block-white-text{
+.right_button{
+    align-self: flex-end;
+}
+.sideblock_text{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: relative;
+}
+.textleft{
+    text-align: end;
+}
+.gif_subsckript_white{
     width: 380px; 
     color: var(--main-white, #FFF);
     font-family: Gilroy;
@@ -28,30 +43,19 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 140%; /* 22.4px */
-    position: absolute;
-    top: 230px;
-    left: 800px;
+    display: block;
 }
-.block-span1{
-    width: 200px;
+.span1{
+    width: 100%;
     color: #C1ABFF;
-    font-family: Gilroy;
     font-size: 30px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 140%; /* 56px */
-    position: relative;
-    position: absolute;
-    top: 140px;
-    left: 800px;
-    
 }
+
 .gif{
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 90px;
-    left: 400px;
+    width: 528px;
+    height: 471px;
+    display: flex;
 }
 .block-span2{
     width: 300px;
