@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Gilroy_normal';
     src: url(/fonts/Gilroy/Gilroy-Medium.ttf);
@@ -7,6 +8,8 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    font-family: 'Gilroy_normal';
+
 }
 
 /* Убираем внутренние отступы */
@@ -101,7 +104,6 @@ select {
 .gif_subsckript_white{
     width: 380px; 
     color: var(--main-white, #FFF);
-    font-family: Gilroy;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -132,7 +134,6 @@ select {
 .text_team{
     color: #FFF;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -182,7 +183,6 @@ select {
 .imya_team1{
     color: #FFF;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -194,7 +194,6 @@ select {
 .imya_team2{
     color: #FFF;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
