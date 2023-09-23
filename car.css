@@ -7,7 +7,6 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    font-family: 'Gilroy_normal';
 }
 
 /* Убираем внутренние отступы */
@@ -619,3 +618,322 @@ a:visited{
 /* quests + contact */
 
 
+/* newpage */
+body{
+    margin: 0;
+}
+.mainpage{
+    width: 100%;
+    height:4544px ;
+    background-color:#0F1113;
+}
+.header{
+    position: relative;
+
+    width: 82%;
+    height: 60px;
+    background-color: #0F1113;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9%;
+    padding-right: 9%;
+    align-items: center;
+}
+.leftcont{
+    display: flex;
+    color: #FFF;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+gap: 40px;
+}
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.crug{
+text-align: center;
+margin-top: 110px;
+}
+.textnearcrug{
+
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(144deg, #54D6FF 38%, #C275FF 54.69%, #F36AFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.specialbloc{
+    width: 740px;
+
+}
+.text{
+    color: var(--main-white, #FFF);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+margin-top: 30px;
+}
+.ft{
+   
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}
+.boxfortext{
+ 
+   
+    margin: auto;
+    text-align: center;
+    
+
+}
+.buttonandertext{
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(144deg, #54D6FF 38%, #C275FF 54.69%, #F36AFF 100%);
+    
+}
+.blackpart{
+    width: 290px;
+    height: 50px;
+    background-color: #0F1113;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.litepaper{
+    background: var(--Gradient-1, linear-gradient(104deg, #FC84FF 13.23%, #54D1FA 91.95%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 20px;
+font-weight: 600;
+
+}
+.textlogo{
+
+    color: var(--main-white, #FFF);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.leftpartheader{
+    position: relative;
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+list-style: none;
+text-align: center;
+display: flex;
+gap: 40px;
+left: 60px;
+}
+.tok{
+    color: #B2A6FD;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.brt{
+    position: absolute;
+    top: 19px;
+    right: 458px;
+}
+.rightpartheader{
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    gap: 40px;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+right:188px ;
+list-style: none;
+left: 1100px;
+top: 5px;
+}
+.boxtr{
+  
+ 
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 30px;
+    margin-top: 200px;
+    text-align: bottom;
+    
+  
+
+
+}
+.uio{
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 22.4px */
+  
+}
+
+.boxik{
+    
+    width: 368px;
+    height: 253px;
+    flex-shrink: 0;
+border: 1px solid #ee78b9;
+}
+.textl{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.boxsecond{
+    width: 368px;
+    height: 253px;
+    flex-shrink: 0;
+    border: 1px solid #a9f9ff;
+   
+}
+.iop{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.yui{
+    width: 368px;
+height: 253px;
+flex-shrink: 0;
+    border: 1px solid #a9c4ff;
+   
+}
+.newbutton{
+    border-radius: 10px;
+border: 3px solid linear-gradient(104deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+box-shadow: 0px 2px 12px 0px rgba(148, 180, 252, 0.37);
+width: 300px;
+height: 60px;
+background: linear-gradient(104deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+}
+.ert{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.textyum{
+    color: #C1ABFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 56px */
+margin-top: 187px;
+margin-left: -880px;
+}
+.texttr{
+    color: #C1ABFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 56px */
+margin-top: -45px ;
+margin-right: 50px;
+}
+.promo{
+    margin-top: 40px;
+    
+    text-align: center;
+}
+@media screen and (max-width: 1920px){
+    .promo{
+        display: flex;
+        justify-content: center;
+        gap: 90px;
+
+    }
+    .promo_text_secPage{
+        margin-top: 280px;
+
+    }
+    .crug{
+        margin-top: 180px;
+    }
+    .botton_button_kostil{
+        display: none !important;
+    }
+    .top_button_kostil{
+        display: block;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .text{
+        width: 450px;
+    }
+    .promo_text_secPage{
+        width: 450px;
+    }
+
+}
+@media screen and (min-width: 1920px){
+    .top_button_kostil{
+        display: none !important;
+    }
+}
