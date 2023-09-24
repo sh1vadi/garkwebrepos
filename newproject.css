@@ -321,3 +321,936 @@ margin-right: 50px;
     height: 504px;
 
 }
+.boxik{
+     
+    width: 368px;
+height: 253px;
+flex-shrink: 0;
+margin-left: 20%;
+margin-top: 454px;
+border-radius: 10px;
+border: 1px solid #ee78b9;
+position: relative;
+}
+.boxik1{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    right: 20px;
+}
+.textl{
+    color: #FFF;
+    width: 335px;
+   
+font-family: Gilroy;
+font-size: 15px;
+margin-top: 115px;
+margin-left: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.boxsecond{
+    width: 368px;
+    height: 253px;
+    flex-shrink: 0;
+    margin-left: 41%;
+    margin-top: -256px;
+    border-radius: 10px;
+    border: 1px solid #a9f9ff;
+    display: flex;
+    position: relative;
+}
+.boxsecond1{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    right: 20px;
+}
+.iop{
+    color: #FFF;
+    width: 425px;
+    margin-left: 33px;
+    margin-top: 110px;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.yui{
+    width: 368px;
+    height: 253px;
+    flex-shrink: 0;
+    margin-left: 62%;
+    margin-top: -256px;
+    border-radius: 10px;
+    border: 1px solid #a9c4ff;
+    display: flex;
+    position: relative;
+}
+.yui1{
+    position: absolute;
+   left: 20px;
+   top: 10px;
+   right: 20px;
+}
+.ert{
+    color: #FFF;
+    width: 395px;
+    margin-left: 25px;
+    margin-top: 110px;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+}
+.textyum{
+    color: #C1ABFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 56px */
+margin-top: 187px;
+margin-left: -45%;
+}
+.texttr{
+    color: #C1ABFF;
+text-align: center;
+font-family: Gilroy;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 56px */
+margin-top: -45px ;
+margin-left: 25%;
+}
+
+.textyumika{
+   width: 460px;
+   color: var(--main-white, #FFF);
+   font-family: Gilroy;
+   font-size: 16px;
+   margin-left: 20%;
+   margin-top: 40px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 22.4px */
+}   
+.texttrchika{
+   width: 410px;
+   position: absolute;
+   color: var(--main-white, #FFF);
+   font-family: Gilroy;
+   font-size: 16px;
+   margin-left: 57.5%;
+   margin-top: -70px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%; /* 22.4px */    
+} 
+
+.rotate{
+   position: absolute;
+   margin-top: 250px;
+   margin-left: 11.5%;
+   width: 375.344px;
+   height: 73px;
+   transform: rotate(89.995deg);
+   flex-shrink: 0;
+   border-radius: 10px;
+   background: #F787FF;
+}
+.Ecosystem1{
+     color: #F787FF;      
+     margin-top: 100px;
+     margin-left: 24.5%;
+}
+.Ecosystem2{   
+   color: #FFF; 
+   position: absolute; 
+   margin-top: -19.4px;
+   margin-left: 26.2%;
+}
+
+
+
+.rotate2{
+   width: 312.787px;
+   height: 73px;
+   transform: rotate(89.998deg);
+   flex-shrink: 0;
+   border-radius: 10px;
+   background: #CA9BFE;
+   margin-top: 550px;
+   margin-left: 13.2%;
+}
+.Reserved1{
+   color: #CA9BFE;
+   margin-top: -190px;
+   margin-left: 24.5%;
+}
+.Reserved2{
+   color: #FFF; 
+   position: absolute; 
+   margin-top: -19.4px;
+   margin-left: 26.2%;
+}
+.rotate3{
+   width: 185.717px;
+   height: 73px;
+   transform: rotate(89.998deg);
+   flex-shrink: 0;
+   border-radius: 10px;
+   background: #A6ACFD;
+   margin-top: 425px;
+   margin-left: 16.4%;
+}
+.Fund1{
+   color: #A6ACFD;
+   margin-top: -125px;
+   margin-left: 24.5%;
+}
+.Fund2{
+   color: #FFF; 
+   position: absolute; 
+   margin-top: -19.4px;
+   margin-left: 26.2%;
+}
+
+
+.rotate4{
+   width: 144.664px;
+   height: 73px;
+   margin-top: 275px;
+   margin-left: 17.4%;
+   transform: rotate(89.998deg);
+   flex-shrink: 0;
+   border-radius: 10px;
+   background: #89B9FC;
+}
+.Team1{
+   color: #89B9FC;
+   margin-top: -105px;
+   margin-left: 24.5%;
+}
+.Team2{
+   color: #FFF; 
+   position: absolute; 
+   margin-top: -19.4px;
+   margin-left: 26.2%;
+}
+.rotate5{
+   width: 87.971px;
+   height: 73px;
+   margin-top: 195px;
+   margin-left: 18.8%;
+   transform: rotate(89.998deg);
+   flex-shrink: 0;
+   border-radius: 10px;
+   background: #76C2FB;
+}
+.Seedround1{
+   color: #76C2FB;
+   margin-top: -75px;
+   margin-left: 24.5%;
+}
+.Seedround2{
+   color: #FFF; 
+   position: absolute; 
+   margin-top: -19.4px;
+   margin-left: 26.4%;
+}
+.rotate6{
+   width: 78.197px;
+   height: 73px;
+   margin-top: 125px;
+   margin-left: 19%;
+   transform: rotate(89.998deg);
+   flex-shrink: 0;
+   border-radius: 10px;
+   background: #68C8FB;
+}
+.PublicSale1{
+   color: #76C2FB;
+   margin-top: -73px;
+   margin-left: 24.5%;
+}
+.PublicSale2{
+   color: #FFF; 
+   position: absolute; 
+   margin-top: -19.4px;
+   margin-left: 26.4%;
+}
+
+.rotate7{
+   width: 57.576px;
+   height: 73px;
+   margin-top: 100px;
+   margin-left: 19.5%;
+   transform: rotate(89.998deg);
+   flex-shrink: 0;
+   border-radius: 10px;
+   background: #5ECDFB;
+}
+.PrivateSale1{
+   color: #5ECDFB;
+   margin-top: -65px;
+   margin-left: 24.5%;
+}
+.PrivateSale2{
+   color: #FFF; 
+   position: absolute; 
+   margin-top: -19.4px;
+   margin-left: 26.4%;
+}
+
+.rotate8{
+   width: 35.188px;
+   height: 73px;
+   margin-top: 85px;
+   margin-left: 20%;
+   transform: rotate(89.998deg);
+   flex-shrink: 0;
+   border-radius: 10px;
+   background: #54D1FA;
+}
+.AirDrop1{
+   color: #5ECDFB;
+   margin-top: -50px;
+   margin-left: 24.5%;
+}
+.AirDrop2{
+   color: #FFF; 
+   position: absolute; 
+   margin-top: -19.4px;
+   margin-left: 26.4%;
+}
+
+
+
+.Roadmap1{
+   margin-left: 58%;
+   margin-top: -1750px;
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   flex-shrink: 0;
+   border-radius: 25px;
+   border-radius: 125px;
+   border: 3px solid var(--Gradient-1, #FC84FF);
+   box-shadow: 0px 2px 12px 0px rgba(148, 180, 252, 0.37);
+   background-color: rgb(0, 0, 0);
+}
+.oneroadmap1{
+   color: #FFF;
+   position: absolute;
+   margin-left: 58.9%;
+   margin-top: -1742px;
+   font-family: Gilroy;
+   font-size: 23px;
+   font-style: normal;
+}
+.Roadmaptext1{
+   margin-left: 62%;
+   margin-top: -1725px;
+   color: #F18AFF;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}    
+.Roadmaptext11{
+   color: #5B6978;
+   margin-left: 62%;
+   margin-top: 5px;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+
+
+
+
+.Roadmaptext2{
+   color: #F18AFF;
+   margin-left: 62%;
+   margin-top: 25px;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext22{
+   color: #5B6978;
+   margin-left: 62%;
+   margin-top: 5px;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+
+
+
+
+
+
+.Roadmaptext3{
+   color: #F18AFF;
+   margin-left: 62%;
+   margin-top: 25px;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext33{
+   color: #5B6978;
+   margin-top: 5px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+
+
+
+
+.Roadmap2{
+   margin-top: 50px;
+   margin-left: 58%;
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   flex-shrink: 0;
+   border-radius: 25px;
+   border-radius: 125px;
+   border: 3px solid var(--Gradient-1, #D596FE);
+   box-shadow: 0px 2px 12px 0px rgba(148, 180, 252, 0.37);
+   background-color: rgb(0, 0, 0);
+}
+.tworoadmap2{
+   color: #FFF;
+   position: absolute;
+   margin-left: 58.9%;
+   margin-top: 60px;
+   font-family: Gilroy;
+   font-size: 23px;
+   font-style: normal;
+}
+
+
+.Roadmaptext4{
+   color: #D596FE;
+   margin-left: 62%;
+   margin-top: 75px;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext44{
+   color: #5B6978;
+   margin-left: 62%;
+   margin-top: 5px;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+
+
+.Roadmaptext5{
+   color: #D596FE;
+   margin-left: 62%;
+   margin-top: 25px;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext55{
+   color: #5B6978;
+   margin-left: 62%;
+   margin-top: 5px;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.Roadmaptext6{
+   color: #D596FE;
+   margin-left: 62%;
+   margin-top: 25px;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext66{
+   color: #5B6978;
+   margin-top: 5px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.Roadmap3{
+   margin-top: 50px;
+   margin-left: 58%;
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   flex-shrink: 0;
+   border-radius: 25px;
+   border-radius: 125px;
+   border: 3px solid var(--Gradient-1, #B2A6FD);
+   box-shadow: 0px 2px 12px 0px rgba(148, 180, 252, 0.37);
+   background-color: rgb(0, 0, 0);
+}
+
+.threeroadmap3{
+   color: #FFF;
+   position: absolute;
+   margin-left: 58.9%;
+   margin-top: 60px;
+   font-family: Gilroy;
+   font-size: 23px;
+   font-style: normal;
+}
+
+.Roadmaptext7{
+   color: #B2A6FD;
+   margin-left: 62%;
+   margin-top: 75px;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext77{
+   color: #5B6978;
+   margin-left: 62%;
+   margin-top: 5px;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.Roadmaptext8{
+   color: #B2A6FD;
+   margin-left: 62%;
+   margin-top: 25px;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext88{
+   color: #5B6978;
+   margin-left: 62%;
+   margin-top: 5px;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.Roadmaptext9{
+   color: #B2A6FD;
+   margin-left: 62%;
+   margin-top: 25px;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext99{
+   color: #5B6978;
+   margin-top: 5px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.Roadmaptext10{
+   color: #B2A6FD;
+   margin-top: 25px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+
+.Roadmaptext110{
+   color: #5B6978;
+   margin-top: 5px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.Roadmap4{
+   margin-top: 50px;
+   margin-left: 58%;
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   flex-shrink: 0;
+   border-radius: 25px;
+   border-radius: 125px;
+   border: 3px solid var(--Gradient-1, #8EB7FC);
+   box-shadow: 0px 2px 12px 0px rgba(148, 180, 252, 0.37);
+   background-color: rgb(0, 0, 0);
+}
+
+.fooroadmap4{
+   color: #FFF;
+   position: absolute;
+   margin-left: 58.9%;
+   margin-top: 60px;
+   font-family: Gilroy;
+   font-size: 23px;
+   font-style: normal;
+}
+
+.Roadmaptext1120{
+   color: #8EB7FC;
+   margin-left: 62%;
+   margin-top: 75px;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext111{
+   color: #5B6978;
+   margin-top: 5px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.Roadmaptext12{
+   color: #8EB7FC;
+   margin-top: 25px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext112{
+   color: #5B6978;
+   margin-top: 5px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.Roadmaptext13{
+   color: #8EB7FC;
+   margin-top: 25px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext113{
+   color: #5B6978;
+   margin-top: 5px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.Roadmaptext14{
+   color: #8EB7FC;
+   margin-top: 25px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext114{
+   color: #5B6978;
+   margin-top: 5px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.Roadmap5{
+   margin-top: 50px;
+   margin-left: 58%;
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   flex-shrink: 0;
+   border-radius: 25px;
+   border-radius: 125px;
+   border: 3px solid var(--Gradient-1, #7AC0FB);
+   box-shadow: 0px 2px 12px 0px rgba(148, 180, 252, 0.37);
+   background-color: rgb(0, 0, 0);
+}
+
+.fiveroadmap5{
+   color: #FFF;
+   position: absolute;
+   margin-left: 58.9%;
+   margin-top: 60px;
+   font-family: Gilroy;
+   font-size: 23px;
+   font-style: normal;
+}
+
+.Roadmaptext15{
+   color: #7AC0FB;
+   margin-top: 75px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext115{
+   color: #5B6978;
+   margin-top: 5px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.Roadmaptext16{
+   color: #7AC0FB;
+   margin-top: 25px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext116{
+   color: #5B6978;
+   margin-top: 5px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+.Roadmaptext17{
+   color: #7AC0FB;
+   margin-top: 25px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.Roadmaptext117{
+   color: #5B6978;
+   margin-top: 5px;
+   margin-left: 62%;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+
+
+.palkaept{
+   margin-left: 59.5%;
+   margin-top: -1400px;
+   width: 6px;
+   height: 1226px;
+   flex-shrink: 0;
+   border-radius: 17px;
+   background: var(--Grad-2, linear-gradient(180deg, #FC84FF 0%, #54D1FA 100%));
+}
+
+
+.contactus{
+   color: #FFF;
+   margin-top: 650px;
+   text-align: center;
+   font-family: Gilroy;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+.name228{
+   color: #FFF;
+   margin-left: 18%;
+   margin-top: 100px;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 120%;
+   text-transform: capitalize;
+}
+.boxname228{
+   width: 1207px;
+   height: 50px;
+   margin-left: 17.8%;
+   margin-top: 15px;
+   flex-shrink: 0;
+   border-radius: 5px;border: 1px solid #151D25;
+   background: linear-gradient(90deg, #151D25 0%, #131618 100%);
+}
+.email228{
+   color: #FFF;
+   margin-left: 18%;
+   margin-top: 50px;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 120%;
+   text-transform: capitalize;
+}
+.boxemail228{
+   width: 1207px;
+   height: 50px;
+   margin-top: 15px;
+   margin-left: 17.8%;
+   flex-shrink: 0;
+   border-radius: 5px;
+   border: 1px solid #151D25;
+   background: linear-gradient(90deg, #151D25 0%, #131618 100%);
+}
+
+.message228{
+   color: #FFF;
+   margin-top: 50px;
+   margin-left: 18%;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 120%;
+   text-transform: capitalize;
+}
+.boxmessage228{
+   width: 1207px;
+   height: 120px;
+   margin-top: 15px;
+   margin-left: 17.8%;
+   flex-shrink: 0;
+   border-radius: 5px;
+   border: 1px solid #151D25;
+   background: linear-gradient(91deg, #151D25 0.45%, #131618 99.55%);
+}
+
+.boxsend{
+   width: 250px;
+   height: 60px;
+   margin-left: 42.5%;
+   margin-top: 50px;
+   flex-shrink: 0;
+   border-radius: 10px;
+   background: var(--2G, linear-gradient(91deg, #BDB2FF 21.86%, #CE8FFF 99.05%));
+}
+.textsend{
+   color: #000000;
+   position: absolute;
+   margin-top: 71.5px;
+   margin-left: 47.8%;
+   text-align: center;
+   font-family: Gilroy;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+
+.fnttoken{
+   color: #C1ABFF;
+   text-align: center;
+   margin-top: 150px;
+   margin-left: -2.5%;
+   font-family: Gilroy;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 140%;
+}
+.oficialfnt{
+   color: var(--main-white, #FFF);
+   text-align: center;
+   margin-left: -1.5%;
+   margin-top: 25px;
+   font-family: Gilroy;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%;
+}
