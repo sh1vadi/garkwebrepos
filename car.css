@@ -41,7 +41,7 @@ body {
     min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
-    line-height: 1.5;
+
     background-color: #000;
 }
 
@@ -59,7 +59,6 @@ a:not([class]) {
 /* Упрощаем работу с изображениями */
 img {
     max-width: 100%;
-    display: block;
 }
 
 /* Указываем понятную периодичность в потоке данных у article*/
@@ -68,12 +67,7 @@ article>*+* {
 }
 
 /* Наследуем шрифты для инпутов и кнопок */
-input,
-button,
-textarea,
-select {
-    font: inherit;
-}
+
 /* many smth */
 .two_blocks_inside{
     display: flex;
@@ -195,7 +189,9 @@ select {
 }
 .imya_team3{
     color: #FFF;
-    text-align: center;    font-weight: 600;    line-height: normal;
+    text-align: center;    
+    font-weight: 600;    
+    line-height: normal;
     position: absolute;
     top: 77px;
     left: 73px;
