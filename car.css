@@ -105,7 +105,6 @@ select {
     width: 380px; 
     color: var(--main-white, #FFF);
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 140%; /* 22.4px */
     display: block;
@@ -135,9 +134,7 @@ select {
     color: #FFF;
     text-align: center;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 .team_container{
     width: 100%;
@@ -183,10 +180,7 @@ select {
 .imya_team1{
     color: #FFF;
     text-align: center;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     position: absolute;
     top: 77px;
     left: 73px;
@@ -194,22 +188,14 @@ select {
 .imya_team2{
     color: #FFF;
     text-align: center;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     position: absolute;
     top: 77px;
     left: 73px;
 }
 .imya_team3{
     color: #FFF;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    text-align: center;    font-weight: 600;    line-height: normal;
     position: absolute;
     top: 77px;
     left: 73px;
@@ -217,11 +203,7 @@ select {
 .imya_team4{
     color: #FFF;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     position: absolute;
     top: 77px;
     left: 73px;
@@ -229,11 +211,6 @@ select {
 .btm_text_team1{
     color: #4F6173;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     position: absolute;
     top: 109px;
     left: 60px;
@@ -241,10 +218,6 @@ select {
 .btm_text_team2{
     color: #4F6173;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
     line-height: normal;
     position: absolute;
     top: 109px;
@@ -254,11 +227,6 @@ select {
 .btm_text_team3{
     color: #4F6173;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     position: absolute;
     top: 109px;
     left: 60px;
@@ -267,10 +235,6 @@ select {
 .btm_text_team4{
     color: #4F6173;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
     line-height: normal;
     position: absolute;
     top: 109px;
@@ -300,11 +264,8 @@ select {
 .text_partners{
     color: #FFF;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 
 .box_partnerov1{
@@ -339,20 +300,14 @@ select {
     color: #FFF;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 .sectext{
     color: #FFF;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin-top: 177px;
 }
 .list_box1{
@@ -361,10 +316,6 @@ select {
     background-color: #0F1113;
     margin: auto;
     color: #FFF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
     line-height: 140%;
     position: relative;
 }
@@ -388,9 +339,6 @@ select {
 }
 .name{
     color: #FFF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
     line-height: 120%; /* 19.2px */
     text-transform: capitalize;
@@ -407,9 +355,6 @@ select {
 }
 .email{
     color: #FFF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
     line-height: 120%; /* 19.2px */
     text-transform: capitalize;
@@ -420,9 +365,6 @@ select {
 }
 .message{
     color: #FFF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
     line-height: 120%; /* 19.2px */
     text-transform: capitalize;
