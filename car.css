@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Gilroy_normal';
     src: url(/fonts/Gilroy/Gilroy-Medium.ttf);
@@ -8,6 +9,7 @@
 *::after {
     box-sizing: border-box;
     font-family: 'Gilroy_normal';
+
 }
 
 /* Убираем внутренние отступы */
@@ -40,7 +42,9 @@ body {
     min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
+
     background: #0F1113;    
+
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
@@ -57,7 +61,6 @@ a:not([class]) {
 /* Упрощаем работу с изображениями */
 img {
     max-width: 100%;
-    display: block;
 }
 
 /* Указываем понятную периодичность в потоке данных у article*/
@@ -66,11 +69,53 @@ article>*+* {
 }
 
 /* Наследуем шрифты для инпутов и кнопок */
-input,
-button,
-textarea,
-select {
-    font: inherit;
+
+/* many smth */
+.two_blocks_inside{
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    background-color: #C1ABFF;
+    border-radius: 6px;
+    border: 0px  #C1ABFF;
+}
+.right_button{
+    align-self: flex-end;
+}
+.sideblock_text{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: relative;
+}
+.textleft{
+    text-align: end;
+}
+.gif_subsckript_white{
+    width: 380px; 
+    color: var(--main-white, #FFF);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%; /* 22.4px */
+    display: block;
+}
+.span1{
+    width: 100%;
+    color: #C1ABFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.gif{
+    width: 528px;
+    height: 471px;
+    display: flex;
 }
 
 /* team */
@@ -90,11 +135,8 @@ select {
 .text_team{
     color: #FFF;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 .team_container{
     width: 100%;
@@ -117,11 +159,7 @@ select {
 .imya_team1{
     color: #FFF;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     position: absolute;
     top: 77px;
     left: 73px;
@@ -133,11 +171,15 @@ select {
     font-size: 16px;
     font-style: normal;
 font-weight: 500;
-    line-height: normal;
+
+.line{
+    width: 279px;
+    height: 1px;
+    background: #151D25;
     position: absolute;
-    top: 109px;
-    left: 60px;
+    top: 148px;
 }
+
 #team11{
     position: absolute;
     left: 80px;
@@ -168,11 +210,8 @@ font-weight: 500;
 .text_partners{
     color: #FFF;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 .box_partnerov1{
     width: 173px;
@@ -205,20 +244,14 @@ font-weight: 500;
     color: #FFF;
     text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 .sectext{
     color: #FFF;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin-top: 177px;
 }
 .list_box1{
@@ -227,10 +260,6 @@ font-weight: 500;
     background-color: #0F1113;
     margin: auto;
     color: #FFF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
     line-height: 140%;
     position: relative;
 }
@@ -267,9 +296,6 @@ font-weight: 500;
     width: 1207px;
     margin: auto;
     color: #FFF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
     line-height: 120%; /* 19.2px */
     text-transform: capitalize;
@@ -289,9 +315,6 @@ font-weight: 500;
     width: 1207px;
     margin: auto;
     color: #FFF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
     line-height: 120%; /* 19.2px */
     text-transform: capitalize;
@@ -304,9 +327,6 @@ font-weight: 500;
     width: 1207px;
     margin: auto;
     color: #FFF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
     line-height: 120%; /* 19.2px */
     text-transform: capitalize;
@@ -334,9 +354,6 @@ font-weight: 500;
 .send_c{
     color: #0F1113;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
     position: absolute;
@@ -371,11 +388,19 @@ font-weight: 500;
 .left{
     width: 388px;
     height: 220px;
+    height: 66.345px;
+    flex-shrink: 0;
+    color: var(--main-white, #FFF);
+    position: absolute;
+    left: 678px;
+    top: 143px;
+
 }
 .bottom_logobox{
     display: flex;
     gap: 11px;
 }
+
 .textlogo_bottom{
     color: #fff;
     font-size: 24px;
@@ -415,6 +440,13 @@ font-weight: 500;
     color: #fff;
     font-weight: 500;
     margin-top: 50px;
+  }
+.tekst1{
+    color: var(--main-white, #FFF);
+    position: absolute;
+    left: 1331px;
+    top: 79px;
+
 }
 #rizno{
     background: var(--gradient-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%));
@@ -431,6 +463,7 @@ a:visited{
     text-decoration: none;
 }
 /* quests + contact */
+
 @media screen and (max-width: 1440px) {
     .list_box1{
         width: 90%;
@@ -447,3 +480,277 @@ a:visited{
     }
 }
     
+
+
+
+/* newpage */
+body{
+    margin: 0;
+}
+.mainpage{
+    width: 100%;
+    height:4544px ;
+    background-color:#0F1113;
+}
+.header{
+    position: relative;
+
+    width: 82%;
+    height: 60px;
+    background-color: #0F1113;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9%;
+    padding-right: 9%;
+    align-items: center;
+}
+.leftcont{
+    display: flex;
+    color: #FFF;
+    gap: 40px;
+}
+.absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.crug{
+text-align: center;
+margin-top: 110px;
+}
+.textnearcrug{
+
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    background: linear-gradient(144deg, #54D6FF 38%, #C275FF 54.69%, #F36AFF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.specialbloc{
+    width: 740px;
+
+}
+.text{
+    color: var(--main-white, #FFF);
+font-size: 24px;
+line-height: 140%;
+margin-top: 30px;
+}
+.ft{
+   
+font-size: 24px;
+line-height: 140%;
+}
+.boxfortext{
+ 
+   
+    margin: auto;
+    text-align: center;
+    
+
+}
+.buttonandertext{
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(144deg, #54D6FF 38%, #C275FF 54.69%, #F36AFF 100%);
+    
+}
+.blackpart{
+    width: 290px;
+    height: 50px;
+    background-color: #0F1113;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.litepaper{
+    background: var(--Gradient-1, linear-gradient(104deg, #FC84FF 13.23%, #54D1FA 91.95%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 20px;
+font-weight: 600;
+
+}
+.textlogo{
+
+    color: var(--main-white, #FFF);
+font-size: 24px;
+font-weight: 600;
+line-height: normal;
+
+}
+.leftpartheader{
+    position: relative;
+    color: #FFF;
+line-height: normal;
+list-style: none;
+text-align: center;
+display: flex;
+gap: 40px;
+left: 60px;
+}
+.tok{
+    color: #B2A6FD;
+
+font-weight: 600;
+line-height: normal;
+}
+.brt{
+    position: absolute;
+    top: 19px;
+    right: 458px;
+}
+.rightpartheader{
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    gap: 40px;
+font-weight: 600;
+line-height: normal;
+right:188px ;
+list-style: none;
+left: 1100px;
+top: 5px;
+}
+.boxtr{
+  
+ 
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 30px;
+    margin-top: 200px;
+    text-align: bottom;
+    
+  
+
+
+}
+.uio{
+    color: #FFF;
+    line-height: 140%; /* 22.4px */
+  
+}
+
+.boxik{
+    
+    width: 368px;
+    height: 253px;
+    flex-shrink: 0;
+border: 1px solid #ee78b9;
+}
+.textl{
+    color: #FFF;
+line-height: 140%; /* 22.4px */
+}
+.boxsecond{
+    width: 368px;
+    height: 253px;
+    flex-shrink: 0;
+    border: 1px solid #a9f9ff;
+   
+}
+.iop{
+    color: #FFF;
+line-height: 140%; /* 22.4px */
+}
+.yui{
+    width: 368px;
+height: 253px;
+flex-shrink: 0;
+    border: 1px solid #a9c4ff;
+   
+}
+.newbutton{
+    border-radius: 10px;
+border: 3px solid linear-gradient(104deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+box-shadow: 0px 2px 12px 0px rgba(148, 180, 252, 0.37);
+width: 300px;
+height: 60px;
+background: linear-gradient(104deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+}
+.ert{
+    color: #FFF;font-style: normal;
+line-height: 140%; /* 22.4px */
+}
+.textyum{
+    color: #C1ABFF;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+line-height: 140%; /* 56px */
+margin-top: 187px;
+margin-left: -880px;
+}
+.texttr{
+    color: #C1ABFF;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+line-height: 140%; /* 56px */
+margin-top: -45px ;
+margin-right: 50px;
+}
+.promo{
+    margin-top: 40px;
+    
+    text-align: center;
+}
+@media screen and (max-width: 1920px){
+    .promo{
+        display: flex;
+        justify-content: center;
+        gap: 90px;
+
+    }
+    .promo_text_secPage{
+        margin-top: 280px;
+
+    }
+    .crug{
+        margin-top: 180px;
+    }
+    .botton_button_kostil{
+        display: none !important;
+    }
+    .top_button_kostil{
+        display: block;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .text{
+        width: 450px;
+    }
+    .promo_text_secPage{
+        width: 450px;
+    }
+
+}
+@media screen and (min-width: 1920px){
+    .top_button_kostil{
+        display: none !important;
+    }
+}
+

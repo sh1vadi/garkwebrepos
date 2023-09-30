@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+   background: black;
+    
+
+}
+h2{
+    margin: 0;
+    margin-block: 0;
+}
+
+.two_blocks_inside{
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    background-color: #C1ABFF;
+    border-radius: 6px;
+    border: 0px  #C1ABFF;
+}
+.right_button{
+    align-self: flex-end;
+}
+.sideblock_text{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: relative;
+}
+.textleft{
+    text-align: end;
+}
+.gif_subsckript_white{
+    width: 380px; 
+    color: var(--main-white, #FFF);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 22.4px */
+    display: block;
+}
+.span1{
+    width: 100%;
+    color: #C1ABFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.gif{
+    width: 528px;
+    height: 471px;
+    display: flex;
+}
