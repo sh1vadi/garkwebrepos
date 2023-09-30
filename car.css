@@ -34,6 +34,7 @@ blockquote,
 dl,
 dd {
     margin: 0;
+    background: #0F1113;
 }
 
 /* Выставляем основные настройки по-умолчанию для body */
@@ -42,7 +43,8 @@ body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
 
-    background-color: #000;
+    background: #0F1113;    
+
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
@@ -117,11 +119,17 @@ article>*+* {
 }
 
 /* team */
+.lineq{
+    width: 1205px;
+    height: 2px;
+    background-color: #151D25;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 77px;
+}
 .main_team{
     width: 100%;
-    height: 398px;
     background-color: #0F1113;
-    margin-top: 50px;
     position: relative;
 }
 .text_team{
@@ -146,57 +154,9 @@ article>*+* {
     border: 1px solid #151D25;
     background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
     position: relative;
-}
-.team2{
-    width: 280px;
-    height: 215px;
-    flex-shrink: 0;
-    border: 1px solid #151D25;
-    background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: relative;
-}
-.team3{
-    width: 280px;
-    height: 215px;
-    flex-shrink: 0;
-    border: 1px solid #151D25;
-    background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: relative;
-}
-.team4{
-    width: 280px;
-    height: 215px;
-    flex-shrink: 0;
-    border: 1px solid #151D25;
-    background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
-    position: relative;
+    margin-top: 30px;
 }
 .imya_team1{
-    color: #FFF;
-    text-align: center;
-    font-weight: 600;
-    position: absolute;
-    top: 77px;
-    left: 73px;
-}
-.imya_team2{
-    color: #FFF;
-    text-align: center;
-    font-weight: 600;
-    position: absolute;
-    top: 77px;
-    left: 73px;
-}
-.imya_team3{
-    color: #FFF;
-    text-align: center;    
-    font-weight: 600;    
-    line-height: normal;
-    position: absolute;
-    top: 77px;
-    left: 73px;
-}
-.imya_team4{
     color: #FFF;
     text-align: center;
     font-weight: 600;
@@ -207,35 +167,11 @@ article>*+* {
 .btm_text_team1{
     color: #4F6173;
     text-align: center;
-    position: absolute;
-    top: 109px;
-    left: 60px;
-}
-.btm_text_team2{
-    color: #4F6173;
-    text-align: center;
-    line-height: normal;
-    position: absolute;
-    top: 109px;
-    left: 60px;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+font-weight: 500;
 
-.btm_text_team3{
-    color: #4F6173;
-    text-align: center;
-    position: absolute;
-    top: 109px;
-    left: 60px;
-}
-
-.btm_text_team4{
-    color: #4F6173;
-    text-align: center;
-    line-height: normal;
-    position: absolute;
-    top: 109px;
-    left: 60px;
-}
 .line{
     width: 279px;
     height: 1px;
@@ -243,6 +179,7 @@ article>*+* {
     position: absolute;
     top: 148px;
 }
+
 #team11{
     position: absolute;
     left: 80px;
@@ -250,10 +187,23 @@ article>*+* {
     text-align: center;
     display: block;
 }
+.team_conn{
+    display: flex;
+    gap: 17px;
+    margin-top: 171px;
+    margin-left: 67px;
+}
 /* partners */
+.lin{
+    width: 1205px;
+    height: 2px;
+    background-color: #151D25;
+    margin: auto;
+    border-radius: 5px;
+}
 .main_partners{
     width: 100%;
-    height: 300px;
+    height: 479px;
     background-color: #0F1113;
     position: relative;
 }
@@ -263,7 +213,6 @@ article>*+* {
     font-size: 36px;
     font-weight: 700;
 }
-
 .box_partnerov1{
     width: 173px;
     height: 92px;
@@ -275,22 +224,21 @@ article>*+* {
     justify-content: center;
     align-items: center;
 }
-.partnerbox{
+.partner_all_boxes{
     display: flex;
     margin: auto;
     width: 945px;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    margin-top: 52px;
 }
-
-/* quests + contact */
-
+/* quests */
 .main{
     width: 100%;
     height: 1896px;
     background-color:#0F1113;
-    margin-top: 100px;
+    margin-top: 181px;
 }
 .text{
     color: #FFF;
@@ -323,17 +271,30 @@ article>*+* {
     top: 29px;
     right: 20px;
 }
-.textt1{
+.sec_text_q{
     position: absolute;
     top: 31px;
     left: 20px;
 }
+.textt1{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 22.4px */
+    position: absolute;
+    top: 31px;
+    left: 20px;
+}
+/*contact*/
 .main_contact{
-    width: 1207px;
+    width: 100%;
     height: 615px;
     margin: auto;
 }
-.name{
+.name_c{
+    width: 1207px;
+    margin: auto;
     color: #FFF;
     font-weight: 600;
     line-height: 120%; /* 19.2px */
@@ -341,42 +302,47 @@ article>*+* {
     margin-top: 46px;
     margin-right: 1444px;
 }
-.box1_contact{
+.box1_c{
     width: 1207px;
+    margin: auto;
     height: 50px;
     border-radius: 5px;
     border: 1px solid #151D25;
     background: linear-gradient(90deg, #151D25 0%, #131618 100%);
     
 }
-.email{
-    color: #FFF;
-    font-weight: 600;
-    line-height: 120%; /* 19.2px */
-    text-transform: capitalize;
-    margin-top: 27px;
-    margin-right: 1444px;
-    margin-bottom: 15px;
-
-}
-.message{
-    color: #FFF;
-    font-weight: 600;
-    line-height: 120%; /* 19.2px */
-    text-transform: capitalize;
-    margin-top: 27px;
-    margin-right: 1444px;
-    margin-bottom: 15px;
-}
-.box3_contact{
+.email_c{
     width: 1207px;
+    margin: auto;
+    color: #FFF;
+    font-weight: 600;
+    line-height: 120%; /* 19.2px */
+    text-transform: capitalize;
+    margin-top: 27px;
+    margin-right: 1444px;
+    margin-bottom: 15px;
+    
+}
+.message_c{
+    width: 1207px;
+    margin: auto;
+    color: #FFF;
+    font-weight: 600;
+    line-height: 120%; /* 19.2px */
+    text-transform: capitalize;
+    margin-top: 27px;
+    margin-right: 1444px;
+    margin-bottom: 15px;
+}
+.box3_c{
+    width: 1207px;
+    margin: auto;
     height: 179px;
     border-radius: 5px;
     border: 1px solid #151D25;
     background: linear-gradient(90deg, #151D25 0%, #131618 100%);
-    
 }
-.send{
+.button_send_c{
     width: 250px;
     height: 60px;
     border-radius: 10px;
@@ -385,7 +351,7 @@ article>*+* {
     margin-top: 30px;
     position: relative;
 }
-.sendd{
+.send_c{
     color: #0F1113;
     text-align: center;
     font-weight: 600;
@@ -402,96 +368,87 @@ article>*+* {
     margin-top: 69px;
     border-radius: 5px;
 }
-.linear{
-        width: 1205px;
-    height: 2px;
-    background-color: #151D25;
-    margin: auto;
-    margin-top: 69px;
-    border-radius: 5px;
-}
-.niz{
+/*bottom*/
+.bottom_main{
     width: 100%;
     height: 338.76px;
-    background-color: #101417;
+    background: #101417;
     position: relative;
+    display: flex;
 }
-.imgshka{
-    position: absolute;
-    left: 678px;
-    top: 62px;
+.niz_main{
+    width: 1200px;
+    height: 100%;   
+    margin: auto;
+    display: flex;
+    gap: 155px;
+    align-items: center;
+    margin-top: 113px;
 }
-.imgshka2{
-    position: absolute;
-    left: 721px;
-    top: 62px;
-}
-.textniz{
+.left{
     width: 388px;
+    height: 220px;
     height: 66.345px;
     flex-shrink: 0;
     color: var(--main-white, #FFF);
     position: absolute;
     left: 678px;
     top: 143px;
+
 }
-.displayimg{
+.bottom_logobox{
     display: flex;
-    gap: 30px;
-    position: absolute;
-    left: 678px;
-    top: 258px;
+    gap: 11px;
+}
+
+.textlogo_bottom{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration-line: underline;
 }
 .tekst1{
-    color: var(--main-white, #FFF);
-    position: absolute;
-    left: 1331px;
-    top: 79px;
-}
-.tekst1{
-    color: var(--main-white, #FFF);
-    position: absolute;
-    left: 1331px;
-    top: 79px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 .tekst2{
-    color: var(--main-white, #FFF);
-    position: absolute;
-    left: 1331px;
-    top: 123px;
-}
-.tekst3{
-    color: var(--main-white, #FFF);   
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
     line-height: normal;
-    position: absolute;
-    left: 1331px;
-    top: 167px;
+    margin-top: 25px;
 }
-.tekst4{
+.center{
+    width: 93px;
+    height: 152px;
+    margin-left: 68px;
+}
+.right{
+    width: 100px;
+    height: 108px;
+}
+.displayimg_bottom{
+    display: flex;
+    gap: 30px;
+    margin-top: 48px;
+}
+.textniz{
+    color: #fff;
+    font-weight: 500;
+    margin-top: 50px;
+  }
+.tekst1{
     color: var(--main-white, #FFF);
     position: absolute;
     left: 1331px;
-    top: 211px;
-}
-.tekst5{
-    color: var(--main-white, #FFF);
-    position: absolute;
-    left: 1537px;
     top: 79px;
+
 }
-.tekst6{
-    color: var(--main-white, #FFF);
-    position: absolute;
-    left: 1537px;
-    top: 123px;
-}
-.tekst7{
-    color: var(--main-white, #FFF);
-    position: absolute;
-    left: 1537px;
-    top: 167px;
-}
-#tekts7{
+#rizno{
     background: var(--gradient-1, linear-gradient(144deg, #FC84FF 0%, #54D1FA 100%));
     background-clip: text;
     -webkit-background-clip: text;
@@ -506,6 +463,24 @@ a:visited{
     text-decoration: none;
 }
 /* quests + contact */
+
+@media screen and (max-width: 1440px) {
+    .list_box1{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .box1_c{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .box3_c{
+        width: 90%;
+    }
+}
+    
+
 
 
 /* newpage */
@@ -778,3 +753,4 @@ margin-right: 50px;
         display: none !important;
     }
 }
+
